@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.team-name{    
+    font-family: 'PT Serif', serif;
+}
+
+.description{
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+.description p{
+    position: relative;
+    top: 8px;
+}
+
+.head-container{
+    display: flex;
+    justify-content: center;
+    padding: 65px 96px 100px 50px;
+    gap: 200px;
+}
+
+    
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 89px;
+}
+
+.container{
+    display: flex;
+    gap: 56.64px;
+}
+
+img{
+    height: 350px;
+    width: 238px;
+     
+}
+ 
+
+.container-1{
+    display: flex;
+    gap: 8px;
+    
+}
+
+.container-2{
+    display: flex;
+    position: relative;
+    left: 6.6399px;
+    top: 84px;
+    gap: 8px;
+}
+
+.container-3{
+    display: flex;
+    gap: 8px;
+}
+
+.container-5{
+    display: flex;
+    position: relative;
+ 
+    top: 78px;
+    gap: 8px;
+
+}
+
+.work{
+    writing-mode: vertical-lr;        
+    font-family: 'PT Serif', serif;
+}
+
+.internal{
+    position: absolute;
+    right: 445px;
+    top: 124px;
+}
+.inner-container{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.container-4{
+    display: flex;
+    gap: 8px;
+}
+
+.container-6{
+    display: flex;
+    gap: 8px;
+}
+
+@media only screen and (max-width: 420px) {
+    .head-container{
+        flex-direction: column;
+        gap: 35px;
+        width: 100%;
+        padding: 65px 96px 100px 15px;
+    }
+
+    .head-container br{
+        display: none;
+    }
+
+    .img-container{
+       
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+    .container{
+        flex-direction: column;
+        width: 150px;
+    }
+
+    img{
+        height: 245px;
+        width: 148px;
+    }
+    
+    .work{
+        font-size: 10px;
+    }
+
+    .inner-container p{
+        font-size: 15px;
+    }
+
+    .container-2{
+        
+        top: 11px;
+    }
+
+    .container-4{
+        position: relative;
+        top: 55px;
+    }
+
+    .container-5{
+        top: 69px;
+    }
+    .container-6{
+        position: relative;
+        top: 55px;
+    }
+
+    
+  }
+
+
+
+
+
+
