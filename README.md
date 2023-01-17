@@ -31,7 +31,7 @@
   - [Built With](#css)
 - 
 - [Contact](#contact)
-- [Acknowledgements](#Thanks to dev challanges for providing this challange!)
+- [Acknowledgements](#Acknowledgement)
 
 <!-- OVERVIEW -->
 
